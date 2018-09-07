@@ -6,6 +6,7 @@ import { browserAction } from './browserAction';
 import { commands } from './commands';
 import { notifications } from './notifications';
 import { i18n } from './i18n';
+import { windows } from './windows';
 
 // Firefox specific API
 import { geckoProfiler } from './geckoProfiler';
@@ -20,6 +21,7 @@ const chrome = {
   geckoProfiler,
   notifications,
   i18n,
+  windows,
 };
 
 export { chrome };
